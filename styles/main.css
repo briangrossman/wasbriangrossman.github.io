@@ -1,0 +1,132 @@
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: #4CAF50;
+  }
+
+/* Hero Image */
+#hero_image {
+    text-align: center;
+    background-color: #333333;
+}
+
+/* Tagline */
+#tagline {
+    text-align: center;
+    background-color: #666666;
+}
+div#tagline h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+/* Sections */
+section {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+section#intro {
+    background-color: #999999;
+    margin: 0px;
+    padding: 10px; 
+}
+
+/* Products */
+
+article {
+    float: left;
+    width: 300px;
+    border: 1px solid #000000;
+    margin: 5px; 
+    padding: 10px; 
+    height: 400px;
+    background-color: #cccccc;
+}
+
+#products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#product2, #product3 {
+    display: none;
+}
+
+#previous_product, #next_product {
+    font-size: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+div.product_image {
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+}
+
+/* Product Details */
+section#product_details {
+    clear:both;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+}
+
+#contact_link {
+    color: #ffffff;
+}
+
+/* Contact */
+#contact_form {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
