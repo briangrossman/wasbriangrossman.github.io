@@ -1,3 +1,4 @@
+// testing
 // default to product 1
 let currProduct = 1;
 let numProducts = 3;
